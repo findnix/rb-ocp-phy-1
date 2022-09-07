@@ -6,5 +6,5 @@
 - \# oc adm policy add-scc-to-user privileged -z default -n rb-ns-p2
 - oc project  rb-ns-p2
 -
-- oc new-app https://github.com/findnix/ocp_phy_1
+- oc new-app https://github.com/findnix/rb-ocp-phy-1
 - oc expose svc/deploy-python-openshift-s2i-tutorial
