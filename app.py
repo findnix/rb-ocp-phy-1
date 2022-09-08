@@ -18,5 +18,5 @@ def main():
     return 'Hello, world from rb! (from port 8080) v1'
 
 if __name__ == '__main__':  # Script executed directly?
-    print("Hello, World, from rb (on stdout). Uses S2I to build the application.")
+    print("Hello, World, from rb (on stdout).")
     app.run(host="0.0.0.0", port=8080, debug=True,use_reloader=True)  # Launch built-in web server and run this Flask webapp
