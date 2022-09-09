@@ -1,5 +1,5 @@
 # Use S2I to build a new docker image using sources and a builder image.
-# cloned to rb
+# cloned from bkadambi to rb
 
 - oc delete namespace rb-ns-p2
 - oc create namespace rb-ns-p2
