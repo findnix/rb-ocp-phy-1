@@ -16,7 +16,9 @@ app = Flask(__name__)    # Construct an instance of Flask class for our webapp
 @app.route('/')   # URL '/' to be handled by main() route handler
 def main():
     """Say hello"""
-    x = 'Hello, world from rb! (at port 8080) v6' + '<BR>' + socket.gethostname()
+    x = 'Hello, world from rb! (at port 8080) v7' \
+    + '<BR>' + 'eclipse') \
+    + '<BR>' + socket.gethostname()
     return x 
 
 if __name__ == '__main__':  # Script executed directly?
