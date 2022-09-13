@@ -17,7 +17,7 @@ app = Flask(__name__)    # Construct an instance of Flask class for our webapp
 def main():
     """Say hello"""
     x = 'Hello, world from rb! (at port 8080) v15' \
-    + '<BR>' + 'eclipse' \
+    + '<BR>' + 'Visual Studio Code' \
     + '<BR>' + socket.gethostname()
     return x 
 
