@@ -16,8 +16,8 @@ app = Flask(__name__)    # Construct an instance of Flask class for our webapp
 @app.route('/')   # URL '/' to be handled by main() route handler
 def main():
     """Say hello"""
-    x = 'Hello, world from rb! (at port 8080) v15' \
-    + '<BR>' + 'Visual Studio Code' \
+    x = 'Hello, world from rb! (at port 8080) v16' \
+    + '<BR>' + 'Visual Studio Code für Thomas' \
     + '<BR>' + socket.gethostname()
     return x 
 
