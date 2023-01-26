@@ -16,13 +16,13 @@ app = Flask(__name__)    # Construct an instance of Flask class for our webapp
 @app.route('/')   # URL '/' to be handled by main() route handler
 def main():
     """Say hello"""
-    x = 'Hello, world from rb! (at port 8080) v19' \
+    x = 'Hello, World! From rb (at port 8080) v19.' \
     + '<BR>' + 'Visual Studio Code privat' \
     + '<BR>' + socket.gethostname()
     return x 
 
 if __name__ == '__main__':  # Script executed directly?
-    print("Hello, World from rb (on stdout).")
+    print("Hello, World! From rb (on stdout).")
     print(socket.gethostname())
     app.run(host="0.0.0.0", port=8080, debug=False,use_reloader=True)  # Launch built-in web server and run this Flask webapp
     # app.run(host="0.0.0.0", port=8080, debug=True,use_reloader=True)  # Launch built-in web server and run this Flask webapp
