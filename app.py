@@ -22,7 +22,7 @@ def main():
     return x 
 
 if __name__ == '__main__':  # Script executed directly?
-    print("Hello, World, from rb (on stdout).")
+    print("Hello, World from rb (on stdout).")
     print(socket.gethostname())
     app.run(host="0.0.0.0", port=8080, debug=False,use_reloader=True)  # Launch built-in web server and run this Flask webapp
     # app.run(host="0.0.0.0", port=8080, debug=True,use_reloader=True)  # Launch built-in web server and run this Flask webapp
